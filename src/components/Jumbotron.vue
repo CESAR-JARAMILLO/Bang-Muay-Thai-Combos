@@ -4,7 +4,7 @@
     <p>All combos and drills are referenced from the BANG Muay Thai <a href="https://www.youtube.com/channel/UCYr42ia_GEP97beaCUXgbvw">YouTube</a> channel.</p>
     <p>Some Variations are from the <a href="https://www.systemstrainingcenter.com/">Systems Training Center</a> classes</p>
     <p>For any errors or suggestions feel free to contact me: csarjaramillo89@yahoo.com</p>
-    <b-button variant="primary" href="#">Combos & Drills</b-button>
+    <b-button id="btn" variant="primary" href="#list">Combos & Drills</b-button>
   </b-jumbotron>
 </div>
 </template>
@@ -15,6 +15,22 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+  p {
+    padding: 0 20px;
+  }
 
+  a {
+    color: #FF7B15;
+  }
+
+  a:hover {
+    color: #bd5b0f;
+  }
+
+  #btn {
+    background-color: #FF7B15;
+    border-color: #FF7B15;
+    color: #fff;
+  }
 </style>
