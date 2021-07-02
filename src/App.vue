@@ -1,13 +1,15 @@
 <template>
   <div id="app">
+    <Jumbotron />
   </div>
 </template>
 
 <script>
-
+import Jumbotron from './components/Jumbotron'
 export default {
   name: 'App',
   components: {
+    Jumbotron
   }
 }
 </script>
