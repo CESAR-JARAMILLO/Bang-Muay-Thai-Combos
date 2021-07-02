@@ -17,7 +17,7 @@
       <div id="holland" class="card">
           <h3>Holland Combination</h3>
           <p>Jab, cross, lead hook</p>
-          <p>Reload for lead body, reload for lead hook, rear low kick</p>
+          <p>Reload for lead body, reload for lead hook, rear low-kick</p>
           <br>
           <h3>Holland Combination Video Reference</h3>
           <a href="https://www.youtube.com/watch?v=uadMkjatsd0&list=PLhKjAOsodBLmddG0i5fakLyWCWOKVvnjg&index=3&t=33s">Kickboxing For MMA: Holland Combination</a>
@@ -143,6 +143,7 @@ export default {
     .card {
         padding: 24px 10px;
         margin-bottom: 24px;
+        box-shadow: 1px 2px;
     }
 
     h3 {

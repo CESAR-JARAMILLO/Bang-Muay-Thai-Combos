@@ -4,7 +4,7 @@
     <Jumbotron id="jumbotron" />
     <List id="list" />
     <Cards id="cards" />
-    <a href="/">Back To Top</a>
+    <a href="#jumbotron">Back To Top</a>
   </div>
 </template>
 
