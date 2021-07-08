@@ -2,6 +2,7 @@
     <b-list-group>
         <h2>Combos & Drills</h2>
         <h4>Quick Links</h4>
+        <b-list-group-item><b-link href="#hand-combos">#'s 1-11 Hands</b-link></b-list-group-item>
         <b-list-group-item><b-link href="#sticks">Sticks Combination</b-link></b-list-group-item>
         <b-list-group-item><b-link href="#holland">Holland Combination</b-link></b-list-group-item>
         <b-list-group-item><b-link href="#hemmers">Hemmers Combination</b-link></b-list-group-item>

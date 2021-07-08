@@ -1,5 +1,21 @@
 <template>
   <b-container>
+      <div id="hand-combos" class="card">
+          <h3>#'s 1-5 Hands</h3>
+          <p>#1 jab</p>
+          <p>#2 jab, cross</p>
+          <p>#3 jab, cross, lead hook</p>
+          <p>#4 jab, cross, lead hook, cross</p>
+          <p>#5 jab, cross, lead hook, cross, lead upper-cut</p>
+          <br>
+          <h3>#'s 6-10 Hands</h3>
+          <p>#6 cross, lead hook, cross</p>
+          <p>#7 lead hook, cross, lead hook</p>
+          <p>#8 cross, lead hook, rear upper-cut</p>
+          <p>#9 lead hook, cross, lead upper-cut</p>
+          <p>#10 rear upper-cut, lead hook, cross</p>
+          <p>#11 lead upper-cut, cross, lead hook</p>
+      </div>
       <div id="sticks" class="card">
           <h3>Sticks Combination</h3>
           <p>Jab, rear upper-cut , lead hook, rear body-kick</p>
