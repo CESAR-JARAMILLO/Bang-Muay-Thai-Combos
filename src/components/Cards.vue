@@ -8,7 +8,7 @@
           <p>#4 jab, cross, lead hook, cross</p>
           <p>#5 jab, cross, lead hook, cross, lead upper-cut</p>
           <br>
-          <h3>#'s 6-10 Hands</h3>
+          <h3>#'s 6-11 Hands</h3>
           <p>#6 cross, lead hook, cross</p>
           <p>#7 lead hook, cross, lead hook</p>
           <p>#8 cross, lead hook, rear upper-cut</p>
