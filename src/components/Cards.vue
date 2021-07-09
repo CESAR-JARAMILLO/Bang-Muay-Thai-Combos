@@ -6,7 +6,7 @@
           <p>#2 jab, cross</p>
           <p>#3 jab, cross, lead hook</p>
           <p>#4 jab, cross, lead hook, cross</p>
-          <p>#5 jab, cross, lead hook, cross, lead upper-cut</p>
+          <p>#5 jab, cross, lead upper-cut, cross, lead hook</p>
           <br>
           <h3>#'s 6-11 Hands</h3>
           <p>#6 cross, lead hook, cross</p>
