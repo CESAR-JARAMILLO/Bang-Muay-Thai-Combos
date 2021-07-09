@@ -50,7 +50,7 @@
           <p>Lead hook, rear hook, lead hook</p>
           <p>Rear body, lead body</p>
           <p>Lead hook, rear hook, lead hook</p>
-          <p>Lead inside-kick, left body-kick</p>
+          <p>Lead inside-kick, lead body-kick</p>
           <br>
           <h3>Hemmers Combination Video Reference</h3>
           <a href="https://www.youtube.com/watch?v=olzOj-21bfA">Kickboxing: Hemmers Combo With Coach Joey Banks & Duane Ludwig</a>
