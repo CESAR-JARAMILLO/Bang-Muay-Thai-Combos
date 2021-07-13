@@ -12,6 +12,7 @@
         <b-list-group-item><b-link href="#reem">Reem Drill</b-link></b-list-group-item>
         <b-list-group-item><b-link href="#back-em-up">Back Em Up Drill</b-link></b-list-group-item>
         <b-list-group-item><b-link href="#ko">K.O. Drill</b-link></b-list-group-item>
+        <b-list-group-item><b-link href="#bas">Bas Combo</b-link></b-list-group-item>
     </b-list-group>
 </template>
 

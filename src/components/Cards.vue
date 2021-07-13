@@ -146,6 +146,15 @@
               <h3>K.O. Drill Video Reference</h3>
               <a href="https://www.youtube.com/watch?v=1DO4oQgdynI">The KO Drill With All Rear Punches</a>
           </div>
+          <div id="bas" class="card">
+              <h3>Bas Combo</h3>
+              <p>Lead jab, rear body</p>
+              <p>Rear upper-cut, lead hook</p>
+              <p>Slip and lead hook to liver, rear high-kick</p>
+              <br>
+              <h3>Bas Combo Video Reference</h3>
+              <a href="https://www.youtube.com/watch?v=g2fTnaA-Qxk">How to drill the BMT Bas Combo</a>
+          </div>
   </b-container>
 </template>
 
