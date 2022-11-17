@@ -11,10 +11,11 @@
           <h3>#'s 6-11 Hands</h3>
           <p>#6 cross, lead hook, cross</p>
           <p>#7 lead hook, cross, lead hook</p>
-          <p>#8 cross, lead hook, rear upper-cut</p>
-          <p>#9 lead hook, cross, lead upper-cut</p>
-          <p>#10 rear upper-cut, lead hook, cross</p>
-          <p>#11 lead upper-cut, cross, lead hook</p>
+          <p>#8 rear upper-cut, lead hook, cross</p>
+          <p>#9 lead upper-cut, cross, lead hook</p>
+          <p>#10 cross, lead hook, rear upper-cut</p>
+          <p>#11 lead hook, cross, lead upper-cut</p>
+          
       </div>
       <div id="sticks" class="card">
           <h3>Sticks Combination</h3>
