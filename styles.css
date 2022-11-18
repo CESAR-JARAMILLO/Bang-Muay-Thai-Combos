@@ -1,0 +1,155 @@
+:root {
+  --mainColor: #ff7b15;
+  --darkMainColor: #bd5b0f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Avenir,Helvetica,Arial,sans-serif;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+
+a {
+  color: var(--mainColor);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--darkMainColor);
+}
+
+.btn {
+  cursor: pointer;
+  margin: 40px 0;
+  background-color: var(--mainColor);
+  color: #fff;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+  padding: 24px 16px;
+}
+
+.btn:hover {
+  background-color: var(--darkMainColor);
+  color: #fff;
+}
+
+.landing-container {
+  padding: 50px 0;
+  width: 80%;
+  /* margin: 0 auto; */
+}
+
+.landing-container h1 {
+  font-size: 60px;
+  margin: 20px 0;
+}
+
+.landing-container .lead {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.landing-container p {
+  margin: 14px 0;
+  font-size: 16px;
+}
+
+.landing-container p:nth-of-type(4) {
+  margin-bottom: 50px;
+}
+
+.quick-links-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quick-links-section h2{
+  font-size: 36px;
+  /* margin: 0 auto; */
+}
+
+.quick-links-section h4 {
+  font-size: 26px;
+  margin: 20px 0;
+}
+
+.quick-links-section
+.quick-links {
+  width: 50vw;
+  /* margin: 0 auto; */
+  border: 1px solid var(--darkMainColor);
+  border-radius: 5px;
+}
+
+.quick-links-section
+.quick-links li {
+  font-size: 22px;
+  padding: 12px 0;
+  border: 1px solid var(--darkMainColor);
+  list-style: none;
+}
+
+.combos-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.combos-section
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  padding-bottom: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+.combos-section
+.card
+h3 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 16px 0;
+  text-decoration: underline;
+}
+
+.combos-section
+.card
+p {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+.combos-section
+.card
+a {
+  font-size: 20px;
+  text-decoration: underline;
+  margin: 12px 0;
+}
+
+#back-to-top {
+  font-size: 18px;
+  padding-bottom: 26px;
+}
