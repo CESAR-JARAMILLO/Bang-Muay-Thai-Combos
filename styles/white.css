@@ -1,0 +1,42 @@
+:root {
+  --mainColor: #ff7b15;
+  --darkMainColor: #bd5b0f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Avenir,Helvetica,Arial,sans-serif;
+  /* height: 100vh;
+  width: 100vw; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+
+.landing-container {
+  padding: 50px 0;
+  width: 80%;
+  /* margin: 0 auto; */
+}
+
+.landing-container h1 {
+  font-size: 60px;
+  margin: 20px 0;
+}
+
+.landing-container .lead {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+img {
+  width: 100%;
+}
