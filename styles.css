@@ -148,6 +148,12 @@ a {
   text-decoration: underline;
   margin: 12px 0;
 }
+.combos-section
+.card
+.combo-description {
+  font-style: italic;
+  font-size: 16px;
+}
 
 #back-to-top {
   font-size: 18px;
