@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useRouter } from 'next/router'
+import { Button, Card, FormControl, FormLabel, Input, Stack, Flex } from '@chakra-ui/react'
 import Head from 'next/head'
 
 const PASSWORD = 'mypassword'
@@ -20,18 +21,22 @@ export default function LoginPage() {
   return (
     <>
       <Head>
-        <title>Login | My Next.js App</title>
+        <title>Login | STC BMT Combos</title>
       </Head>
-      <main>
-        <h1>Login</h1>
-        <form onSubmit={handleSubmit}>
-          <label>
-            Password:
-            <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
-          </label>
-          <button type="submit">Submit</button>
-        </form>
-      </main>
+      <Flex minHeight="100vh" align="center" justify="center">
+        <Card maxWidth="400px" p={4} textAlign="center">
+          <h1>Login</h1>
+          <form onSubmit={handleSubmit}>
+            <Stack spacing={4} mt={4}>
+              <FormControl id="password">
+                <FormLabel>Password:</FormLabel>
+                <Input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+              </FormControl>
+              <Button type="submit" colorScheme="blue">Submit</Button>
+            </Stack>
+          </form>
+        </Card>
+      </Flex>
     </>
   )
 }
