@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Header from '../components/Header'
 import { useRouter } from 'next/router'
 import {
   Box,
@@ -27,6 +28,7 @@ export default function Home() {
         <title>My Next.js App</title>
       </Head>
       <VStack>
+        <Header />
       <Box id="top" textAlign="center">
         <Image src="/images/bmt.jpeg" alt="BMT Logo" boxSize="100px" />
         <Heading>BANG Muay Thai</Heading>
