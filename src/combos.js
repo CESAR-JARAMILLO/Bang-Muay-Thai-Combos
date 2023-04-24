@@ -43,6 +43,7 @@ const combos = {
       ]
     },
     {
+      referenceHeading: "Stick Combination Video Reference",
       referenceTitle: "Reviewing the Sticks Combo and Countering",
       referenceLinks: "https://www.youtube.com/watch?v=uXJoA42aPuk&t=30s"
     }
