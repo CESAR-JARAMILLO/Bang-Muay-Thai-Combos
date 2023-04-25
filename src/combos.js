@@ -93,7 +93,31 @@ const combos = {
       referenceTitle: "Kickboxing: Hemmers Combo With Coach Joey Banks & Duane Ludwig",
       referenceLinks: "https://www.youtube.com/watch?v=olzOj-21bfA"
     }
-  ]  
+  ],
+  dutchDrillCombos: [
+    {
+      title: "Dutch Drill #1",
+      combo: [
+        "Lead hook, rear low-kick",
+        "Cross, lead body-kick",
+        "Cross, lead hook, rear low-kick",
+        "Lead hook, cross, lead head-kick"
+      ]
+    },
+    {
+      referenceHeading: "Dutch Drill #1 Video Reference",
+      links: [
+        {
+          referenceTitle: "The Dutch Drill",
+          referenceLinks: "href=https://www.youtube.com/watch?v=aVZnAogUyVU&t=12s"
+        },
+        {
+          referenceTitle: "How to teach the BMT Dutch drill",
+          referenceLinks: "https://www.youtube.com/watch?v=qO-vm9sXthM"
+        }
+      ] 
+    }
+  ],  
 };
 
 export default combos;
