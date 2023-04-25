@@ -26,7 +26,7 @@ const QuickLinks = () => {
   ];
 
   return (
-    <Box bg="gray.100" py="10" px="5">
+    <Box py="10" px="5">
       <Container maxW="container.lg" textAlign="center">
         <Heading as="h2" fontSize="4xl" mb="5">
           Combos &amp; Drills
@@ -36,7 +36,7 @@ const QuickLinks = () => {
         </Text>
         <SimpleGrid columns={[2, 2, 3, 4]} spacing="3" mx="auto">
           {links.map((href, index) => (
-            <Link key={index} href={href} display="block" textAlign="center" border="1px solid blue" borderRadius="md" py="2" px="3">
+            <Link key={index} href={href} display="block" textAlign="center" border="1px solid blue" bg="blue.600" color="white" borderRadius="md" py="3" px="3">
               {href.slice(1)}
             </Link>
           ))}
