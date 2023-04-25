@@ -118,6 +118,40 @@ const combos = {
       ] 
     }
   ],  
+  twoThirtyCombos: [
+    {
+      title: "2:30",
+      combo: [
+        "Jab, cross",
+        "Jab, rear over-head",
+        "Jab, cross",
+        "Jab, rear hook",
+        "Jab, cross",
+        "Jab, rear upper-cut"
+      ]
+    },
+    {
+      title: "2:30 Variation",
+      combo: [
+        "Jab, cross, step back",
+        "Jab, jab, rear over-head",
+        "Lead low-kick",
+      ]
+    },
+    {
+      referenceHeading: "2:30 Video Reference",
+      links: [
+        {
+          referenceTitle: "The 2:30",
+          referenceLinks: "https://www.youtube.com/watch?v=kOH7FYVtyWQ"
+        },
+        {
+          referenceTitle: "Drilling 2:30 Series From Open Stance",
+          referenceLinks: "https://www.youtube.com/watch?v=IzmzEgNkAh8&list=PLhKjAOsodBLmddG0i5fakLyWCWOKVvnjg&index=17"
+        }
+      ] 
+    }
+  ],  
 };
 
 export default combos;

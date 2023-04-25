@@ -6,6 +6,7 @@ import SticksCombos from './cards/SticksCombos'
 import HollandCombos from './cards/HollandCombos'
 import HemmersCombos from './cards/HemmersCombos'
 import DutchDrillCombos from './cards/DutchDrillCombos';
+import ThwoThirtyCombos from './cards/ThwoThirtyCombos'
 
 const CardSection = () => {
   return (
@@ -15,6 +16,7 @@ const CardSection = () => {
       <HollandCombos />
       <HemmersCombos />
       <DutchDrillCombos />
+      <ThwoThirtyCombos />
     </>
   );
 };
