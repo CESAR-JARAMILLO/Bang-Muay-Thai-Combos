@@ -151,7 +151,42 @@ const combos = {
         }
       ] 
     }
-  ],  
+  ],
+  dekkersCombos: [
+    {
+      title: "Dekkers Combination",
+      combo: [
+        "Jab, cross",
+        "Reload for cross, lead hook",
+        "Reload for lead hook, cross (drop on the cross a little)",
+        "Lead body, rear body",
+        "Reload for rear upper-cut, lead hook, cross",
+        "Two lead body-kicks"
+      ]
+    },
+    {
+      title: "New Dekkers Combination",
+      combo: [
+        "Jab, cross",
+        "Reload for cross, lead hook",
+        "Reload for lead hook, cross (drop on the cross a little)",
+        "Lead body, rear body",
+        "Reload for rear upper-cut, lead hook, cross",
+        "Lead inside-kick, lead high-kick"
+      ]
+    },
+    {
+      title: "Dekkers Combination Defensive Variations",
+      combo: [
+        "Combination is the same except with replacing reloads with slips, or rolls."
+      ]
+    },
+    {
+      referenceHeading: "Dekkers Combination Video Reference",
+      referenceTitle: "Kickboxing For MMA: Dekkers Combination",
+      referenceLinks: "https://www.youtube.com/watch?v=GclBhgtT8uQ&t=64s"
+    }
+  ],
 };
 
 export default combos;
