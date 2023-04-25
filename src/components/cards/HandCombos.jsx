@@ -7,15 +7,15 @@ const HandCombos = () => {
 
   return (
     <Card borderWidth="1px" borderRadius="lg" overflow="hidden" textAlign="center" maxW="sm" mx="auto">
-      <CardHeader bg="gray.100" borderBottomWidth="1px">
-        <Heading size='md'>#'s 1-11 Hand Combos</Heading>
+      <CardHeader bg="blue.600" borderBottomWidth="1px">
+        <Heading size='md' color="white">#'s 1-11 Hand Combos</Heading>
       </CardHeader>
 
       <CardBody>
         <Stack divider={<StackDivider />} spacing='4'>
           {handCombos.map((combo, index) => (
             <Box key={index} p="4">
-              <Heading size='sm' mb="2" textTransform='uppercase' fontWeight="semibold">
+              <Heading size='sm' mb="2" textTransform='uppercase' fontWeight="bold" textDecoration="underline">
                 {combo.title}
               </Heading>
               <Text fontSize='md'>
