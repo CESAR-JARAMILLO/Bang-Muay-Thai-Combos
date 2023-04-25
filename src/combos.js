@@ -69,6 +69,30 @@ const combos = {
         }
       ] 
     }
+  ],  
+  hemmersCombos: [
+    {
+      title: "Hemmers Combination",
+      combo: [
+        "Lead hook, rear hook, lead hook",
+        "Rear body, lead body",
+        "Lead hook, rear hook, lead hook"
+      ]
+    },
+    {
+      title: "Hemmers Combination Variation",
+      combo: [
+        "Lead hook, rear hook, lead hook",
+        "Rear body, lead body",
+        "Lead hook, rear hook, lead hook",
+        "Lead inside-kick, lead body-kick"
+      ]
+    },
+    {
+      referenceHeading: "Hemmers Combination Video Reference",
+      referenceTitle: "Kickboxing: Hemmers Combo With Coach Joey Banks & Duane Ludwig",
+      referenceLinks: "https://www.youtube.com/watch?v=olzOj-21bfA"
+    }
   ]  
 };
 

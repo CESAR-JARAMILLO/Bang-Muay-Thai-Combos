@@ -4,7 +4,7 @@ import { Box, Flex, Heading, Text } from '@chakra-ui/react';
 import HandCombos from './cards/HandCombos'
 import SticksCombos from './cards/SticksCombos'
 import HollandCombos from './cards/HollandCombos'
-import combos from '../combos';
+import HemmersCombos from './cards/HemmersCombos'
 
 const CardSection = () => {
   return (
@@ -12,6 +12,7 @@ const CardSection = () => {
       <HandCombos />
       <SticksCombos />
       <HollandCombos />
+      <HemmersCombos />
     </>
   );
 };
