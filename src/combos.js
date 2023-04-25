@@ -187,6 +187,41 @@ const combos = {
       referenceLinks: "https://www.youtube.com/watch?v=GclBhgtT8uQ&t=64s"
     }
   ],
+  reemDrillCombos: [
+    {
+      title: "Reem Drll",
+      combo: [
+        "Cross, lead knee (step forward or switch), land forward after knee",
+        "Lead hook, cross"
+      ]
+    },
+    {
+      title: "Reem Setup Variation",
+      combo: [
+        "Lead hook, low-kick",
+        "Cross, lead knee (step forward or switch), land forward after knee",
+        "Lead hook, cross, lead hook",
+        "Rear high-kick"
+      ]
+    },
+    {
+      referenceHeading: "Reem Drill Video Reference",
+      links: [
+        {
+          referenceTitle: "How To Drill Reems & Returns",
+          referenceLinks: "https://www.youtube.com/watch?v=QbGz4xWVXTQ&t=36s"
+        },
+        {
+          referenceTitle: "Cross Reem / Bang Muay Thai / Kickboxing For MMA / 2020",
+          referenceLinks: "https://www.youtube.com/watch?v=-8PgdG8Vfs0"
+        },
+        {
+          referenceTitle: "Reem Set Up / Kickboxing For MMA / 2020",
+          referenceLinks: "https://www.youtube.com/watch?v=QmkDD6i3r4M"
+        }
+      ] 
+    }
+  ],
 };
 
 export default combos;

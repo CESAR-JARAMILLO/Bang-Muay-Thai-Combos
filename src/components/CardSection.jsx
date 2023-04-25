@@ -8,6 +8,7 @@ import HemmersCombos from './cards/HemmersCombos'
 import DutchDrillCombos from './cards/DutchDrillCombos';
 import ThwoThirtyCombos from './cards/ThwoThirtyCombos'
 import DekkersCombos from './cards/DekkersCombos';
+import ReemDrillCombos from './cards/ReemDrillCombos';
 
 const CardSection = () => {
   return (
@@ -19,6 +20,7 @@ const CardSection = () => {
       <DutchDrillCombos />
       <ThwoThirtyCombos />
       <DekkersCombos />
+      <ReemDrillCombos />
     </>
   );
 };
