@@ -47,7 +47,29 @@ const combos = {
       referenceTitle: "Reviewing the Sticks Combo and Countering",
       referenceLinks: "https://www.youtube.com/watch?v=uXJoA42aPuk&t=30s"
     }
-  ],  
+  ],
+  hollandCombos: [
+    {
+      title: "Holland Combination",
+      combo: [
+        "Jab, cross, lead hook",
+        "Reload for lead body, reload for lead hook, rear low-kick"
+      ]
+    },
+    {
+      referenceHeading: "Holland Combination Video Reference",
+      links: [
+        {
+          referenceTitle: "Kickboxing For MMA: Holland Combination",
+          referenceLinks: "href=https://www.youtube.com/watch?v=uadMkjatsd0&list=PLhKjAOsodBLmddG0i5fakLyWCWOKVvnjg&index=3&t=33s"
+        },
+        {
+          referenceTitle: "BMT Holland Drill",
+          referenceLinks: "https://www.youtube.com/watch?v=RXi2E74K19I"
+        }
+      ] 
+    }
+  ]  
 };
 
 export default combos;
