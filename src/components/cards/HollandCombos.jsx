@@ -29,7 +29,9 @@ const HollandCombos = () => {
                 {item.referenceHeading}
               </Heading>
               {item.links.map((link, index) => (
-                <Link key={index} href={link.referenceLinks}>{link.referenceTitle}</Link>
+                <Box key={index} display="block">
+                  <Link href={link.referenceLinks}>{link.referenceTitle}</Link>
+                </Box>
               ))}
             </Box>
           ))}
