@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Text, Card, CardBody, CardHeader, Heading, Stack, StackDivider, Link } from "@chakra-ui/react";
+import { Box, Text, Card, CardBody, CardHeader, Heading, Stack, StackDivider, Button } from "@chakra-ui/react";
 import combos from '../../combos';
 
 const TwoThirtyCombos = () => {
@@ -31,8 +31,12 @@ const TwoThirtyCombos = () => {
                 {item.referenceHeading}
               </Heading>
               {item.links.map((link, index) => (
-                <Box key={index} display="block">
-                  <Link href={link.referenceLinks}>{link.referenceTitle}</Link>
+                <Box key={index} display="block" mt="4">
+                  <Button size="sm" colorScheme="blue" as="a" href={link.referenceLinks} target="_blank" maxWidth="100%">
+                    <Box isTruncated>
+                      {link.referenceTitle}
+                    </Box>
+                  </Button>
                 </Box>
               ))}
             </Box>

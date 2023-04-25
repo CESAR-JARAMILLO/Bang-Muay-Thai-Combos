@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Text, Card, CardBody, CardHeader, Heading, Stack, StackDivider, Link } from "@chakra-ui/react";
+import { Box, Text, Card, CardBody, CardHeader, Heading, Stack, StackDivider, Button } from "@chakra-ui/react";
 import combos from '../../combos';
 
 const DekkersCombos = () => {
@@ -30,7 +30,9 @@ const DekkersCombos = () => {
               <Heading size='sm' mb="2" textTransform='uppercase' fontWeight="bold" textDecoration="underline">
                 {item.referenceHeading}
               </Heading>
-              <Link href={item.referenceLinks}>{item.referenceTitle}</Link>
+              <Button colorScheme="blue" size="sm" as="a" href={item.referenceLinks} target="_blank" mt="4">
+                {item.referenceTitle}
+              </Button>
             </Box>
           ))}
         </Stack>
