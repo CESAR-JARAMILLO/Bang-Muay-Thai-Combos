@@ -15,6 +15,7 @@ import OneBodyTwoBodyCombos from './cards/OneBodyTwoBodyCombos';
 import SwitchItCombos from './cards/SwitchItCombos';
 import AldoCombos from './cards/AldoCombos';
 import DekkersTwoCombos from './cards/DekkersTwoCombos';
+import TimingOfTwoCombos from './cards/TimingOfTwoCombos';
 
 const CardSection = () => {
   return (
@@ -34,6 +35,7 @@ const CardSection = () => {
       <Box mb={8}><SwitchItCombos /></Box>
       <Box mb={8}><AldoCombos /></Box>
       <Box mb={8}><DekkersTwoCombos /></Box>
+      <Box mb={8}><TimingOfTwoCombos /></Box>
     </>
   );
 };

@@ -318,6 +318,17 @@ const combos = {
       ]
     }
   ],
+  timingOfTwoCombos: [
+    {
+      title: "Timing of 2",
+      combo: [
+        "Jab-Cross",
+        "Jab, Pull, Cross",
+        "Quick Jab-Cross",
+        "Plays with different striking speeds. 'Pull' is a step back to draw oppenent in and return with cross leading into a quick jab-cross"
+      ]
+    }
+  ],
 };
 
 export default combos;
