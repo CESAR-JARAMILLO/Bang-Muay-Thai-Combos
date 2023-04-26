@@ -254,6 +254,16 @@ const combos = {
       referenceLinks: "https://www.youtube.com/watch?v=g2fTnaA-Qxk"
     }
   ],
+  syncUpFlowCombos: [
+    {
+      title: "Sync Up Flow",
+      combo: [
+        "Jab",
+        "Cross",
+        "2 hands (Jab-Cross)"
+      ]
+    }
+  ],
 };
 
 export default combos;

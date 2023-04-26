@@ -10,6 +10,7 @@ import DekkersCombos from './cards/DekkersCombos';
 import ReemDrillCombos from './cards/ReemDrillCombos';
 import KODrillCombos from './cards/KODrillCombos';
 import BasCombos from './cards/BasCombos';
+import SyncUpFlowCombos from './cards/SyncUpFlowCombos';
 
 const CardSection = () => {
   return (
@@ -24,6 +25,7 @@ const CardSection = () => {
       <Box mb={8}><ReemDrillCombos /></Box>
       <Box mb={8}><KODrillCombos /></Box>
       <Box mb={8}><BasCombos /></Box>
+      <Box mb={8}><SyncUpFlowCombos /></Box>
     </>
   );
 };
