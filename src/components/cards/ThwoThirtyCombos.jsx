@@ -6,7 +6,7 @@ const TwoThirtyCombos = () => {
   const twoThirtyCombos = combos.twoThirtyCombos;
 
   return (
-    <Card borderWidth="1px" borderRadius="lg" overflow="hidden" textAlign="center" maxW="sm" mx="auto">
+    <Card id='230' borderWidth="1px" borderRadius="lg" overflow="hidden" textAlign="center" maxW="sm" mx="auto">
       <CardHeader bg="blue.600" borderBottomWidth="1px">
         <Heading size='md' color="white">2:30</Heading>
       </CardHeader>

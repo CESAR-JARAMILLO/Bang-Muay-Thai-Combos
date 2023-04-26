@@ -6,7 +6,7 @@ const DekkersCombos = () => {
   const dekkersCombos = combos.dekkersCombos;
 
   return (
-    <Card borderWidth="1px" borderRadius="lg" overflow="hidden" textAlign="center" maxW="sm" mx="auto">
+    <Card id='Dekkers' borderWidth="1px" borderRadius="lg" overflow="hidden" textAlign="center" maxW="sm" mx="auto">
       <CardHeader bg="blue.600" borderBottomWidth="1px">
         <Heading size='md' color="white">Dekkers Combinations</Heading>
       </CardHeader>

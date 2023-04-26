@@ -6,7 +6,7 @@ const ReemDrillCombos = () => {
   const reemDrillCombos = combos.reemDrillCombos;
 
   return (
-    <Card borderWidth="1px" borderRadius="lg" overflow="hidden" textAlign="center" maxW="sm" mx="auto">
+    <Card id='Reem' borderWidth="1px" borderRadius="lg" overflow="hidden" textAlign="center" maxW="sm" mx="auto">
       <CardHeader bg="blue.600" borderBottomWidth="1px">
         <Heading size='md' color="white">Reem Drill</Heading>
       </CardHeader>
