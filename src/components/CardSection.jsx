@@ -16,6 +16,7 @@ import SwitchItCombos from './cards/SwitchItCombos';
 import AldoCombos from './cards/AldoCombos';
 import DekkersTwoCombos from './cards/DekkersTwoCombos';
 import TimingOfTwoCombos from './cards/TimingOfTwoCombos';
+import CheckItCombos from './cards/CheckIt';
 
 const CardSection = () => {
   return (
@@ -36,6 +37,7 @@ const CardSection = () => {
       <Box mb={8}><AldoCombos /></Box>
       <Box mb={8}><DekkersTwoCombos /></Box>
       <Box mb={8}><TimingOfTwoCombos /></Box>
+      <Box mb={8}><CheckItCombos /></Box>
     </>
   );
 };

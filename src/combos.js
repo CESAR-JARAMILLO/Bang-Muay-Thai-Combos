@@ -329,6 +329,17 @@ const combos = {
       ]
     }
   ],
+  checkItCombos: [
+    {
+      title: "Check It",
+      combo: [
+        "Jab",
+        "Check (evades opponents cross)",
+        "Lead-hook, Cross",
+        "For 'Check' evade opponents cross by stepping towards lead-foot side and throw hook as you land on lead-foot"
+      ]
+    }
+  ],
 };
 
 export default combos;
