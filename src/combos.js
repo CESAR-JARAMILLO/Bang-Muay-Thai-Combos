@@ -239,6 +239,21 @@ const combos = {
       referenceLinks: "https://www.youtube.com/watch?v=1DO4oQgdynI"
     }
   ],
+  basCombos: [
+    {
+      title: "Bas Combo",
+      combo: [
+        "Lead jab, rear body",
+        "Rear upper-cut, lead hook",
+        "Slip and lead hook to liver, rear high-kick"
+      ]
+    },
+    {
+      referenceHeading: "Bas Combo Video Reference",
+      referenceTitle: "How to drill the BMT Bas Combo",
+      referenceLinks: "https://www.youtube.com/watch?v=g2fTnaA-Qxk"
+    }
+  ],
 };
 
 export default combos;
