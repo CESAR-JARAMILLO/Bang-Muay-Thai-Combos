@@ -304,6 +304,20 @@ const combos = {
       ]
     }
   ],
+  dekkersTwoCombos: [
+    {
+      title: "Dekkers Combination #2",
+      combo: [
+        "Jab, Cross, Roll",
+        "Cross, Hook, Slip",
+        "Lead-upper",
+        "Rear-overhand (drop for body shot)",
+        "Lead-body, Rear-body (reload for rear-upper)",
+        "Rear-upper, Lead-hook, Cross",
+        "Lead inside-kick, Lead body-kick"
+      ]
+    }
+  ],
 };
 
 export default combos;
