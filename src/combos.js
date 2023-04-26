@@ -265,6 +265,24 @@ const combos = {
       ]
     }
   ],
+  oneBodyTwoBodyCombos: [
+    {
+      title: "1 Body",
+      combo: [
+        "Jab",
+        "Jab to chest",
+        "Overhand"
+      ]
+    },
+    {
+      title: "2 Body",
+      combo: [
+        "Jab",
+        "Cross to belly",
+        "Lead Hook"
+      ]
+    }
+  ],
 };
 
 export default combos;
