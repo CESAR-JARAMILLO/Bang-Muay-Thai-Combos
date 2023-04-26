@@ -260,7 +260,8 @@ const combos = {
       combo: [
         "Jab",
         "Cross",
-        "2 hands (Jab-Cross)"
+        "2 hands (Jab-Cross)",
+        "'2 hands' is is used to reference hands-combo #2 (jab-cross)"
       ]
     }
   ],
