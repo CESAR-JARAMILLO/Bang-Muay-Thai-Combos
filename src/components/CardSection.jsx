@@ -1,6 +1,5 @@
 import React from 'react';
 import { Box, Flex, Heading, Text } from '@chakra-ui/react';
-// import Card from './Card';
 import HandCombos from './cards/HandCombos'
 import SticksCombos from './cards/SticksCombos'
 import HollandCombos from './cards/HollandCombos'
@@ -13,14 +12,14 @@ import ReemDrillCombos from './cards/ReemDrillCombos';
 const CardSection = () => {
   return (
     <>
-      <HandCombos />
-      <SticksCombos />
-      <HollandCombos />
-      <HemmersCombos />
-      <DutchDrillCombos />
-      <ThwoThirtyCombos />
-      <DekkersCombos />
-      <ReemDrillCombos />
+      <Box mb={8}><HandCombos /></Box>
+      <Box mb={8}><SticksCombos /></Box>
+      <Box mb={8}><HollandCombos /></Box>
+      <Box mb={8}><HemmersCombos /></Box>
+      <Box mb={8}><DutchDrillCombos /></Box>
+      <Box mb={8}><ThwoThirtyCombos /></Box>
+      <Box mb={8}><DekkersCombos /></Box>
+      <Box mb={8}><ReemDrillCombos /></Box>
     </>
   );
 };
