@@ -283,6 +283,16 @@ const combos = {
       ]
     }
   ],
+  switchItCombos: [
+    {
+      title: "Switch It",
+      combo: [
+        "Switch cross",
+        "Lead hook",
+        "Rear body-kick"
+      ]
+    }
+  ],
 };
 
 export default combos;
