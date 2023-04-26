@@ -18,6 +18,7 @@ import DekkersTwoCombos from './cards/DekkersTwoCombos';
 import TimingOfTwoCombos from './cards/TimingOfTwoCombos';
 import CheckItCombos from './cards/CheckIt';
 import ShoulderRollCombos from './cards/ShoulderRoll';
+import SouwerCombos from './cards/SouwerCombos';
 
 const CardSection = () => {
   return (
@@ -40,6 +41,7 @@ const CardSection = () => {
       <Box mb={8}><TimingOfTwoCombos /></Box>
       <Box mb={8}><CheckItCombos /></Box>
       <Box mb={8}><ShoulderRollCombos /></Box>
+      <Box mb={8}><SouwerCombos /></Box>
     </>
   );
 };

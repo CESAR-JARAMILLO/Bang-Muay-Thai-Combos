@@ -349,6 +349,16 @@ const combos = {
       ]
     }
   ],
+  souwerCombos: [
+    {
+      title: "Souwer Combination",
+      combo: [
+        "Hook, Cross (or overhand)",
+        "Liver, Rear head-kick",
+        "Cross can be substituted with overhand to lean in for liver shot"
+      ]
+    }
+  ],
 };
 
 export default combos;
