@@ -222,6 +222,23 @@ const combos = {
       ] 
     }
   ],
+  koDrillCombos: [
+    {
+      title: "K.O. Drill",
+      combo: [
+        "All punches are done while stepping back (which draws in your opponent)",
+        "Cross, cross",
+        "Rear over-head, rear over-head",
+        "Rear hook, rear hook",
+        "Rear upper-cut, rear upper-cut"
+      ]
+    },
+    {
+      referenceHeading: "K.O. Drill Video Reference",
+      referenceTitle: "The KO Drill With All Rear Punches",
+      referenceLinks: "https://www.youtube.com/watch?v=1DO4oQgdynI"
+    }
+  ],
 };
 
 export default combos;
