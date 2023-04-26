@@ -13,6 +13,7 @@ import BasCombos from './cards/BasCombos';
 import SyncUpFlowCombos from './cards/SyncUpFlowCombos';
 import OneBodyTwoBodyCombos from './cards/OneBodyTwoBodyCombos';
 import SwitchItCombos from './cards/SwitchItCombos';
+import AldoCombos from './cards/AldoCombos';
 
 const CardSection = () => {
   return (
@@ -30,6 +31,7 @@ const CardSection = () => {
       <Box mb={8}><SyncUpFlowCombos /></Box>
       <Box mb={8}><OneBodyTwoBodyCombos /></Box>
       <Box mb={8}><SwitchItCombos /></Box>
+      <Box mb={8}><AldoCombos /></Box>
     </>
   );
 };

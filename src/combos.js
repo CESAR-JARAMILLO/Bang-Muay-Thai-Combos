@@ -293,6 +293,17 @@ const combos = {
       ]
     }
   ],
+  aldoCombos: [
+    {
+      title: "Aldo Combination",
+      combo: [
+        "Jab",
+        "Rear-upper",
+        "Liver",
+        "Rear low-kick"
+      ]
+    }
+  ],
 };
 
 export default combos;
