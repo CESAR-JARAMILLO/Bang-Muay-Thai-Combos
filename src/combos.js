@@ -340,6 +340,15 @@ const combos = {
       ]
     }
   ],
+  shoulderRollCombos: [
+    {
+      title: "Shoulder Roll",
+      combo: [
+        "Rear-upper, Lead-upper, Rear-upper",
+        "Lead-hook, Cross"
+      ]
+    }
+  ],
 };
 
 export default combos;
