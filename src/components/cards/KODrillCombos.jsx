@@ -6,7 +6,7 @@ const KODrillCombos = () => {
   const koDrillCombos = combos.koDrillCombos;
 
   return (
-    <Card id='Hemmers' borderWidth="1px" borderRadius="lg" overflow="hidden" textAlign="center" maxW="sm" mx="auto">
+    <Card id='KO' borderWidth="1px" borderRadius="lg" overflow="hidden" textAlign="center" maxW="sm" mx="auto">
       <CardHeader bg="blue.600" borderBottomWidth="1px">
         <Heading size='md' color="white">K.O. Drill</Heading>
       </CardHeader>
