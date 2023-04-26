@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
-
+import logo from './assets/images/stc-logo.png';
+import { Image } from '@chakra-ui/react';
 import './App.css';
 import Hero from './components/Hero';
 import QuickLinks from './components/QuickLinks';
@@ -23,6 +24,7 @@ function App() {
         <Route path="/login" element={isAuthenticated ? <Navigate to="/" /> : <LoginPage setIsAuthenticated={setIsAuthenticated} />} />
         <Route path="/" element={!isAuthenticated ? <Navigate to="/login" /> : (
           <>
+            <Image bg="blue.700" paddingLeft="4" paddingRight="4" src={logo} mx="auto" display="block" />
             <Hero />
             <QuickLinks />
             <CardSection />
