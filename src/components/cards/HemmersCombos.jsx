@@ -18,7 +18,7 @@ const HemmersCombos = () => {
             <Heading size='sm' mb="2" textTransform='uppercase' fontWeight="bold" textDecoration="underline">
               {combo.title}
             </Heading>
-            {hemmersCombos[0].combo.map((combo, index) => (
+            {combo.combo.map((combo, index) => (
               <Text key={index} fontSize='md'>
                 <span>{combo}</span>
               </Text>
