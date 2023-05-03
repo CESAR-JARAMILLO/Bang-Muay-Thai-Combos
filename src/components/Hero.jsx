@@ -13,40 +13,46 @@ import image from '../assets/images/hero.jpg';
 
 const Hero = () => {
   const isMobile = useBreakpointValue({ base: true, lg: false });
+  const imageSize = useBreakpointValue({ base: '100%', lg: '50vw' });
+  const boxHeight = useBreakpointValue({ base: '60vh', lg: '50vh' });
+  const marginTop = useBreakpointValue({ base: '0', lg: '10' });
 
   return (
-    <Box position="relative" height="60vh">
+    <Box position="relative" height={boxHeight} zIndex="0">
       <Image
         src={image}
         alt="Hero"
         position="absolute"
         top="0"
-        left="0"
-        right="0"
-        bottom="0"
+        left="50%"
+        transform="translate(-50%, 0)"
         objectFit="cover"
         zIndex="-1"
-        height={isMobile ? '100%' : 'auto'}
+        width={imageSize}
+        height={isMobile ? imageSize : '100%'}
       />
       <Box
         position="absolute"
         top="0"
-        left="0"
-        right="0"
-        bottom="0"
+        left="50%"
+        transform="translate(-50%, 0)"
         bg="rgba(0, 0, 0, 0.6)"
         zIndex="-1"
+        width={imageSize}
+        height={isMobile ? imageSize : '100%'}
       />
-      <Container maxW="container.lg" zIndex="1" position="relative">
-        <Flex
-          direction="column"
-          align="center"
-          justify="center"
-          height="100%"
-          color="white"
-          alignItems="center"
-        >
-          <Heading as="h1" fontSize="6xl" textAlign="center" mt="10">
+      <Container
+        maxW="container.lg"
+        zIndex="1"
+        position="relative"
+        height={isMobile ? imageSize : '100%'}
+        display="flex"
+        alignItems="center"
+        justifyContent="center"
+        marginTop={marginTop}
+      >
+        <Flex direction="column" align="center" color="white">
+          <Heading as="h1" fontSize="6xl" textAlign="center" mt="0">
             BANG Muay Thai
           </Heading>
           <Text fontSize="xl" textAlign="center" mt="3">
@@ -63,6 +69,7 @@ const Hero = () => {
       </Container>
     </Box>
   );
+  
 };
 
 export default Hero;
