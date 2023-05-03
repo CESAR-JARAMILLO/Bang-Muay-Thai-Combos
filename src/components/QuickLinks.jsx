@@ -40,7 +40,8 @@ const QuickLinks = () => {
               href={`#${href}`}
               display="block"
               textAlign="center"
-              border="1px solid blue"
+              border="1px solid"
+              borderColor="blue.600"
               bg="blue.600"
               color="white"
               borderRadius="md"
