@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Text, Card, CardBody, CardHeader, Heading, Stack, StackDivider, Button } from "@chakra-ui/react";
+import { Box, Text, Card, CardBody, CardHeader, Heading, Stack, StackDivider, Button, Badge } from "@chakra-ui/react";
 import combos from '../../combos';
 
 const DekkersCombos = () => {
@@ -12,6 +12,16 @@ const DekkersCombos = () => {
       </CardHeader>
 
       <CardBody>
+      <Badge
+        colorScheme="yellow"
+        border="1px"
+        borderColor="black"
+        mb="2"
+        p="1"
+        borderRadius="10"
+      >
+        Yellow Belt Requirement
+      </Badge>
       <Stack divider={<StackDivider />} spacing='4'>
         {dekkersCombos.slice(0, -1).map((combo, index) => (
           <Box key={index} p="4">
