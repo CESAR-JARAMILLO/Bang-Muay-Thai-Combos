@@ -359,6 +359,29 @@ const combos = {
       ]
     }
   ],
+  backThemUpCombos: [
+    {
+      title: "Back Them Up Drill",
+      combo: [
+        "Jab, jab, cross",
+        "Jab, lead hook, cross",
+        "Lead hook, jab, cross"
+      ]
+    },
+    {
+      referenceHeading: "Back Them Up Drill Video Reference",
+      links: [
+        {
+          referenceTitle: "Kickboxing For MMA: Back them up drill",
+          referenceLinks: "https://www.youtube.com/watch?v=9SX1jh4ATiI"
+        },
+        {
+          referenceTitle: "3 Different Ways to Use Combo #3 of the Back 'EM Up Drill",
+          referenceLinks: "https://www.youtube.com/watch?v=2dagVVXpMHk"
+        }
+      ] 
+    }
+  ],
 };
 
 export default combos;
