@@ -10,6 +10,7 @@ const QuickLinks = () => {
     { href: 'Dutch', text: 'Dutch' },
     { href: '230', text: '2:30' },
     { href: 'Dekkers', text: 'Dekkers' },
+    { href: 'Back-Them-Up', text: 'Back Them Up' },
     { href: 'Reem', text: 'Reem' },
     { href: 'KO', text: 'K.O.' },
     { href: 'Bas', text: 'Bas' },
