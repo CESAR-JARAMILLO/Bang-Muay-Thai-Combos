@@ -16,13 +16,13 @@ const QuickLinks = () => {
     { href: 'Switch-It', text: 'Switch It' },
     { href: 'Aldo', text: 'Aldo' },
     { href: 'KO', text: 'K.O.' },
-    { href: 'Bas', text: 'Bas' },
-    { href: 'Sync-Up-Flow', text: 'Sync Up Flow' },
     { href: 'Dekkers-Two', text: 'Dekkers 2' },
     { href: 'Timing-Of-Two', text: 'Timing of 2' },
     { href: 'Check-It', text: 'Check It' },
     { href: 'Shoulder-Roll', text: 'Shoulder Roll' },
+    { href: 'Bas', text: 'Bas' },
     { href: 'Souwer', text: 'Souwer' },
+    { href: 'Sync-Up-Flow', text: 'Sync Up Flow' },
   ];
 
   return (
