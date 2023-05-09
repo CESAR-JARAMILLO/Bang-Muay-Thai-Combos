@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Text, Card, CardBody, CardHeader, Heading, Stack, StackDivider } from "@chakra-ui/react";
+import { Box, Text, Card, CardBody, CardHeader, Heading, Stack, StackDivider, Badge } from "@chakra-ui/react";
 import combos from '../../combos';
 
 const TimingOfTwoCombos = () => {
@@ -12,6 +12,16 @@ const TimingOfTwoCombos = () => {
       </CardHeader>
 
       <CardBody>
+      <Badge
+        colorScheme="blue"
+        border="1px"
+        borderColor="black"
+        mb="2"
+        p="1"
+        borderRadius="10"
+      >
+        Blue Belt Requirement
+      </Badge>
         <Stack divider={<StackDivider />} spacing='4'>
           {timingOfTwoCombos.map((combo, index) => (
             <Box key={index} p="4">
