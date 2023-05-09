@@ -37,13 +37,13 @@ const CardSection = () => {
       <Box mb={8}><SwitchItCombos /></Box>
       <Box mb={8}><AldoCombos /></Box>
       <Box mb={8}><KODrillCombos /></Box>
-      <Box mb={8}><BasCombos /></Box>
-      <Box mb={8}><SyncUpFlowCombos /></Box>
       <Box mb={8}><DekkersTwoCombos /></Box>
       <Box mb={8}><TimingOfTwoCombos /></Box>
       <Box mb={8}><CheckItCombos /></Box>
       <Box mb={8}><ShoulderRollCombos /></Box>
+      <Box mb={8}><BasCombos /></Box>
       <Box mb={8}><SouwerCombos /></Box>
+      <Box mb={8}><SyncUpFlowCombos /></Box>
     </>
   );
 };
